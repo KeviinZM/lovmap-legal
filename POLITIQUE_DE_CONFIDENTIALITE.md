@@ -1,16 +1,9 @@
-# IMPÉRATIF : À LIRE AVANT UTILISATION
-
-> [!IMPORTANT]
-> Ce document contient des espaces réservés [ENTRE CROCHETS] que vous DEVEZ remplacer par vos informations réelles avant toute publication.
-
----
-
 # POLITIQUE DE CONFIDENTIALITÉ DE LOVMAP
 
-**Dernière mise à jour : [DATE DU JOUR]**
+**Dernière mise à jour : 10/01/2026**
 
 ## 1. Introduction
-La présente Politique de Confidentialité décrit la manière dont [VOTRE NOM OU NOM DE L'ENTREPRISE] ("l'Éditeur", "nous", "notre") recueille, utilise et protège les données personnelles des utilisateurs ("l'Utilisateur", "vous") de l'application mobile **LovMap** ("l'Application").
+La présente Politique de Confidentialité décrit la manière dont Kévin Zuniga ("l'Éditeur", "nous", "notre") recueille, utilise et protège les données personnelles des utilisateurs ("l'Utilisateur", "vous") de l'application mobile **LovMap** ("l'Application").
 
 En utilisant l'Application, vous acceptez la collecte et l'utilisation de vos informations conformément à cette politique.
 
@@ -41,7 +34,7 @@ Vos données sont traitées pour les finalités suivantes :
 Nous ne vendons JAMAIS vos données personnelles. Elles peuvent être partagées uniquement dans les cas suivants :
 - **Fournisseurs de Services Tiers :** 
     - **Supabase :** Hébergement de la base de données et authentification.
-    - **Expo / Services de Cartographie :** Pour l'affichage des cartes (Google Maps / Apple Maps).
+    - **Expo / Services de Cartographie :** Pour l'affichage des cartes (Google Maps / Apple Maps / Mapbox).
 - **Obligations Légales :** Si la loi ou une autorité judiciaire l'exige.
 
 ## 5. Vos Droits (RGPD)
@@ -51,7 +44,7 @@ Conformément au Règlement Général sur la Protection des Données (RGPD), vou
 - **Droit à l'effacement ("Droit à l'oubli") :** Demander la suppression de votre compte et de toutes vos données associées.
 - **Droit d'opposition :** Vous opposer à certains traitements.
 
-Pour exercer ces droits, contactez-nous à : **[VOTRE ADRESSE EMAIL DE SUPPORT]**
+Pour exercer ces droits, contactez-nous à : **kevinzunigamora@icloud.com**
 
 ## 6. Sécurité des Données
 Nous mettons en œuvre des mesures de sécurité techniques (chiffrement, accès sécurisés) pour protéger vos données. Cependant, aucune transmission sur Internet n'est sécurisée à 100 %.
@@ -65,6 +58,6 @@ L'Application est réservée aux utilisateurs âgés de **18 ans et plus**. Nous
 ## 9. Modifications
 Nous pouvons mettre à jour cette politique. Vous serez informé de tout changement important via l'Application.
 
----
+
 **Contact :**
-Pour toute question concernant cette politique : [VOTRE ADRESSE EMAIL DE CONTACT]
+Pour toute question concernant cette politique : kevinzunigamora@icloud.com
