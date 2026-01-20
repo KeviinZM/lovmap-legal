@@ -5,12 +5,12 @@ Conformément aux dispositions des articles 6-III et 19 de la Loi n°2004-575 du
 ## 1. Éditeur du Service
 L'application **LovMap** est éditée par :
 
-- **Nom / Dénomination sociale :** [VOTRE NOM COMPLET OU NOM DE VOTRE ENTREPRISE]
-- **Adresse du siège social :** [VOTRE ADRESSE POSTALE COMPLÈTE]
-- **Numéro SIRET :** [VOTRE SIRET SI VOUS ÊTES UNE ENTREPRISE/AUTO-ENTREPRENEUR. SINON : "Particulier"]
-- **Email de contact :** [VOTRE EMAIL]
+- **Nom / Dénomination sociale :** Kévin Zuniga
+- **Adresse du siège social :** France
+- **Numéro SIRET :** Particulier
+- **Email de contact :** kevinzunigamora@icloud.com
 
-**Directeur de la publication :** [VOTRE NOM]
+**Directeur de la publication :** Kévin Zuniga 
 
 ## 2. Hébergement
 Les données de l'application sont hébergées par :
