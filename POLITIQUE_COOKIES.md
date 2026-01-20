@@ -1,6 +1,6 @@
 # POLITIQUE RELATIVE AUX COOKIES ET AU STOCKAGE LOCAL
 
-**Dernière mise à jour : [DATE DU JOUR]**
+**Dernière mise à jour : 10/01/2026**
 
 ## 1. Qu'est-ce qu'un "Cookie" ?
 Dans le contexte d'une application mobile, le terme "cookie" couvre les technologies permettant de stocker des informations sur votre appareil (stockage local, cache, identifiants temporaires).
@@ -23,4 +23,4 @@ Vous pouvez cependant effacer les données de l'Application ou désinstaller l'A
 
 ---
 **Contact :**
-Pour toute question : [VOTRE ADRESSE EMAIL DE CONTACT]
+Pour toute question : kevinzunigamora@icloud.com
