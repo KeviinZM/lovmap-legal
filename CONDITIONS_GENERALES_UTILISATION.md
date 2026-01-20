@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES D'UTILISATION (CGU) - LOVMAP
 
-**En vigueur au : [DATE DU JOUR]**
+**En vigueur au : 10/01/2026**
 
 ## 1. Acceptation des CGU
 L'accès et l'utilisation de l'application **LovMap** ("le Service") sont soumis à l'acceptation et au respect des présentes Conditions Générales d'Utilisation. En créant un compte ou en utilisant l'application, l'Utilisateur accepte sans réserve les présentes CGU.
@@ -8,7 +8,7 @@ L'accès et l'utilisation de l'application **LovMap** ("le Service") sont soumis
 ## 2. Accès au Service
 Le Service est accessible gratuitement à tout Utilisateur disposant d'un accès à internet. Tous les coûts afférents à l'accès au Service (matériel informatique, logiciels, connexion internet) sont exclusivement à la charge de l'Utilisateur.
 
-**Âge requis :** Vous devez avoir au moins **18 ans** pour créer un compte et utiliser LovMap.
+**Âge requis :** Vous devez avoir au moins **17 ans** pour créer un compte et utiliser LovMap.
 
 ## 3. Description du Service
 LovMap est une application sociale permettant aux utilisateurs de géolocaliser des points d'intérêt personnels et de les partager avec leurs amis. Le Service est fourni "tel quel". L'Éditeur ne garantit pas l'exactitude des données cartographiques (fournies par des tiers) ni la disponibilité continue du Service.
@@ -44,4 +44,4 @@ Les présentes CGU sont soumises au droit français. En cas de litige non résol
 
 ---
 **Contact :**
-[VOTRE ADRESSE EMAIL DE CONTACT]
+kevinzunigamora@icloud.com
