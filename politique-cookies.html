@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Politique des Cookies — LovMap</title>
+    <meta
+      name="description"
+      content="Politique relative aux cookies, au stockage local et aux identifiants publicitaires de LovMap."
+    />
+    <meta name="theme-color" content="#FF6B35" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="topnav">
+      <a class="brand" href="index.html">
+        <span class="brand-logo">L♥V</span>
+        <span>LovMap</span>
+      </a>
+      <a class="back-link" href="index.html">← Retour</a>
+    </nav>
+
+    <div class="container">
+      <header class="doc-header">
+        <span class="eyebrow">🍪 Cookies</span>
+        <h1>Politique des Cookies, Stockage Local et Identifiants Publicitaires</h1>
+        <div class="updated">Dernière mise à jour : 02/05/2026</div>
+      </header>
+
+      <article>
+        <h2>1. Préambule</h2>
+        <p>
+          Dans le contexte d'une application mobile, le terme "cookie" couvre
+          un ensemble de technologies permettant de stocker ou de lire des
+          informations sur votre appareil :
+        </p>
+        <ul>
+          <li>
+            <strong>Stockage local</strong> (AsyncStorage, Keychain iOS,
+            Keystore Android)
+          </li>
+          <li><strong>Cache</strong> des données et des cartes</li>
+          <li>
+            <strong>Identifiants temporaires</strong> (tokens d'authentification)
+          </li>
+          <li>
+            <strong>Identifiants publicitaires</strong> (IDFA sur iOS, AAID sur
+            Android)
+          </li>
+        </ul>
+        <p>
+          Cette politique détaille comment <strong>LovMap</strong> utilise ces
+          technologies et quels sont vos droits.
+        </p>
+
+        <h2>2. Catégories de traceurs utilisés</h2>
+
+        <h3>2.1. Traceurs strictement nécessaires (sans consentement)</h3>
+        <p>
+          Ces éléments sont indispensables au fonctionnement de l'Application.
+          Ils ne nécessitent pas votre consentement préalable conformément à
+          l'article 82 de la loi Informatique et Libertés.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Élément stocké</th>
+              <th>Finalité</th>
+              <th>Durée</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Token d'authentification (Supabase)</td>
+              <td>Vous maintenir connecté entre 2 ouvertures</td>
+              <td>Jusqu'à déconnexion</td>
+            </tr>
+            <tr>
+              <td>Préférences utilisateur (langue, thème)</td>
+              <td>Mémoriser vos choix de configuration</td>
+              <td>Permanent (effaçable)</td>
+            </tr>
+            <tr>
+              <td>Cache des cartes (Mapbox)</td>
+              <td>Accélérer le chargement des cartes déjà visitées</td>
+              <td>Variable (géré par l'OS)</td>
+            </tr>
+            <tr>
+              <td>ID Push Notification (Expo)</td>
+              <td>Vous envoyer des notifications</td>
+              <td>Tant que vous êtes connecté</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Ces traceurs ne sont
+          <strong>jamais partagés à des tiers à des fins commerciales</strong>
+          et ne servent qu'au bon fonctionnement du Service.
+        </p>
+
+        <h3>2.2. Traceurs publicitaires (avec consentement)</h3>
+        <p>
+          L'Application affiche des publicités via <strong>Google AdMob</strong>.
+          Sur iOS 14.5+, conformément aux règles d'Apple
+          (App Tracking Transparency / ATT), une fenêtre vous demande
+          explicitement votre consentement avant d'utiliser l'identifiant
+          publicitaire de votre appareil.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Identifiant</th>
+              <th>Finalité</th>
+              <th>Quand utilisé</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>IDFA</strong> (iOS)</td>
+              <td>Personnaliser les publicités, mesurer leur efficacité</td>
+              <td>Uniquement si vous acceptez la fenêtre ATT</td>
+            </tr>
+            <tr>
+              <td><strong>AAID</strong> (Android)</td>
+              <td>Idem</td>
+              <td>Selon vos paramètres Google Play</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="callout">
+          <span class="callout-icon">✅</span>
+          <div class="callout-body">
+            <p><strong>Si vous refusez le suivi :</strong></p>
+            <ul>
+              <li>
+                Vous continuerez à voir des publicités, mais
+                <strong>non personnalisées</strong>.
+              </li>
+              <li>
+                Aucun identifiant publicitaire n'est transmis à Google AdMob.
+              </li>
+              <li>
+                Les revenus publicitaires sont moindres pour LovMap, mais le
+                service reste 100 % gratuit.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="callout">
+          <span class="callout-icon">📊</span>
+          <div class="callout-body">
+            <p><strong>Si vous acceptez le suivi :</strong></p>
+            <ul>
+              <li>
+                Google AdMob peut utiliser l'IDFA/AAID pour vous proposer des
+                publicités plus pertinentes.
+              </li>
+              <li>
+                AdMob peut mesurer la performance des publicités (clics,
+                conversions).
+              </li>
+              <li>
+                <strong>Aucune autre donnée personnelle</strong> n'est partagée
+                avec les annonceurs.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>2.3. Traceurs de monitoring (intérêt légitime)</h3>
+        <p>
+          L'Application utilise <strong>Sentry</strong> pour collecter
+          automatiquement les rapports d'erreurs en cas de crash. Ces rapports
+          contiennent :
+        </p>
+        <ul>
+          <li>La stack trace du code (lignes de code à l'origine du bug).</li>
+          <li>
+            Le contexte technique (modèle, OS, version de l'Application).
+          </li>
+          <li>
+            <strong>Aucune donnée personnelle identifiable</strong> (ni email,
+            ni mot de passe, ni messages, ni géolocalisation précise).
+          </li>
+        </ul>
+        <p>
+          Ce traitement repose sur <strong>l'intérêt légitime</strong> de
+          l'Éditeur (article 6.1.f du RGPD) consistant à corriger les bugs et
+          améliorer la stabilité du Service. Vous pouvez vous y opposer en
+          nous contactant à
+          <a href="mailto:kevinzunigamora@icloud.com"
+            >kevinzunigamora@icloud.com</a
+          >.
+        </p>
+
+        <h2>3. Gestion de vos préférences</h2>
+
+        <h3>3.1. Identifiant publicitaire (IDFA)</h3>
+        <p><strong>Sur iOS :</strong></p>
+        <ol>
+          <li>
+            Ouvrez <strong>Réglages → Confidentialité et sécurité → Suivi</strong>
+          </li>
+          <li>Recherchez "LovMap" dans la liste</li>
+          <li>Activez ou désactivez le suivi à votre convenance</li>
+        </ol>
+        <p>
+          Vous pouvez aussi désactiver le suivi globalement pour toutes les
+          applications via
+          <strong>Réglages → Confidentialité et sécurité → Suivi → Autoriser
+          les apps à demander à suivre vos activités</strong>.
+        </p>
+        <p><strong>Sur Android :</strong></p>
+        <ol>
+          <li>Ouvrez <strong>Paramètres → Google → Annonces</strong></li>
+          <li>Activez "Désactiver les annonces personnalisées"</li>
+          <li>
+            Vous pouvez aussi réinitialiser votre identifiant publicitaire à
+            tout moment
+          </li>
+        </ol>
+
+        <h3>3.2. Notifications push</h3>
+        <p>
+          <strong>Sur iOS :</strong> Réglages → Notifications → LovMap →
+          désactiver
+        </p>
+        <p>
+          <strong>Sur Android :</strong> Paramètres → Applications → LovMap →
+          Notifications → désactiver
+        </p>
+
+        <h3>3.3. Effacer toutes les données stockées</h3>
+        <p>
+          Désinstaller l'Application supprime automatiquement toutes les
+          données stockées localement sur votre appareil (token, cache,
+          préférences). Cela ne supprime pas les données stockées sur nos
+          serveurs — pour cela, utilisez la fonction
+          <strong>Profil → Supprimer mon compte</strong>.
+        </p>
+
+        <h2>4. Pas de cookies traditionnels</h2>
+        <p>
+          L'Application étant native (iOS / Android) et non un site web,
+          <strong>les cookies HTTP traditionnels ne sont pas utilisés</strong>.
+          Seuls les mécanismes décrits ci-dessus s'appliquent.
+        </p>
+        <p>
+          Notre <strong>site web</strong>
+          (<a href="https://keviinzm.github.io/lovmap-legal/"
+            >keviinzm.github.io/lovmap-legal</a
+          >) ne dépose aucun cookie hors ceux strictement nécessaires
+          (techniques) à son fonctionnement et au service GitHub Pages.
+        </p>
+
+        <h2>5. Mises à jour de cette politique</h2>
+        <p>
+          Cette politique peut être mise à jour pour refléter les évolutions
+          techniques ou réglementaires. La date de "Dernière mise à jour" en
+          haut du document indique la version en vigueur.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          <strong>Kévin Zuniga</strong><br />
+          Email :
+          <a href="mailto:kevinzunigamora@icloud.com"
+            >kevinzunigamora@icloud.com</a
+          ><br />
+          Site légal :
+          <a href="https://keviinzm.github.io/lovmap-legal/"
+            >keviinzm.github.io/lovmap-legal</a
+          >
+        </p>
+      </article>
+
+      <footer class="doc-footer">
+        <p>&copy; 2026 LovMap — Tous droits réservés</p>
+        <p>
+          <a href="index.html">← Retour aux documents légaux</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -9,221 +9,18 @@
       content="Politique de confidentialité, CGU, mentions légales et politique cookies de l'application LovMap."
     />
     <meta name="theme-color" content="#FF6B35" />
-    <style>
-      :root {
-        --brand: #ff6b35;
-        --brand-dark: #e85a23;
-        --bg: #fafafa;
-        --card: #ffffff;
-        --text: #1f2937;
-        --muted: #6b7280;
-        --border: #e5e7eb;
-        --shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
-        --shadow-hover: 0 10px 25px rgba(255, 107, 53, 0.15),
-          0 4px 10px rgba(0, 0, 0, 0.05);
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Helvetica, Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: var(--bg);
-        color: var(--text);
-        line-height: 1.6;
-        -webkit-font-smoothing: antialiased;
-      }
-
-      .container {
-        max-width: 760px;
-        margin: 0 auto;
-        padding: 48px 24px;
-      }
-
-      header {
-        text-align: center;
-        margin-bottom: 48px;
-      }
-
-      .logo {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 80px;
-        height: 80px;
-        background: var(--brand);
-        border-radius: 20px;
-        font-size: 40px;
-        font-weight: 800;
-        color: #000;
-        letter-spacing: -2px;
-        margin-bottom: 20px;
-        box-shadow: 0 8px 24px rgba(255, 107, 53, 0.3);
-      }
-
-      .logo-heart {
-        display: inline-block;
-        width: 18px;
-        height: 18px;
-        background: var(--brand);
-        clip-path: path(
-          "M9 16C9 16 1 11 1 6C1 3 3 1 6 1C7.5 1 9 2 9 4C9 2 10.5 1 12 1C15 1 17 3 17 6C17 11 9 16 9 16Z"
-        );
-        margin-left: -2px;
-      }
-
-      h1 {
-        color: var(--text);
-        font-size: 2rem;
-        margin: 0 0 8px;
-        font-weight: 700;
-        letter-spacing: -0.02em;
-      }
-
-      header p {
-        color: var(--muted);
-        font-size: 1rem;
-        margin: 0;
-      }
-
-      .grid {
-        display: grid;
-        gap: 16px;
-      }
-
-      .card {
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        padding: 24px;
-        text-decoration: none;
-        color: inherit;
-        display: block;
-        transition: all 0.2s ease;
-        box-shadow: var(--shadow);
-      }
-
-      .card:hover {
-        transform: translateY(-2px);
-        box-shadow: var(--shadow-hover);
-        border-color: var(--brand);
-      }
-
-      .card:focus-visible {
-        outline: 2px solid var(--brand);
-        outline-offset: 2px;
-      }
-
-      .card-header {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        margin-bottom: 8px;
-      }
-
-      .card-icon {
-        font-size: 1.6rem;
-        line-height: 1;
-        flex-shrink: 0;
-      }
-
-      .card-title {
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: var(--text);
-      }
-
-      .card-description {
-        color: var(--muted);
-        font-size: 0.95rem;
-        margin: 0;
-      }
-
-      .card-meta {
-        margin-top: 12px;
-        font-size: 0.8rem;
-        color: var(--muted);
-        font-variant-numeric: tabular-nums;
-      }
-
-      .footer {
-        text-align: center;
-        margin-top: 64px;
-        padding-top: 32px;
-        border-top: 1px solid var(--border);
-        font-size: 0.85rem;
-        color: var(--muted);
-      }
-
-      .footer p {
-        margin: 4px 0;
-      }
-
-      .footer a {
-        color: var(--brand);
-        text-decoration: none;
-      }
-
-      .footer a:hover {
-        text-decoration: underline;
-      }
-
-      .badge {
-        display: inline-block;
-        padding: 2px 8px;
-        background: rgba(255, 107, 53, 0.1);
-        color: var(--brand-dark);
-        border-radius: 12px;
-        font-size: 0.75rem;
-        font-weight: 500;
-        margin-left: 8px;
-      }
-
-      @media (max-width: 600px) {
-        .container {
-          padding: 32px 16px;
-        }
-        h1 {
-          font-size: 1.6rem;
-        }
-        .logo {
-          width: 64px;
-          height: 64px;
-          font-size: 32px;
-        }
-        .card {
-          padding: 20px;
-        }
-      }
-
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg: #0f0f0f;
-          --card: #1a1a1a;
-          --text: #f3f4f6;
-          --muted: #9ca3af;
-          --border: #2a2a2a;
-          --shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-          --shadow-hover: 0 10px 25px rgba(255, 107, 53, 0.2),
-            0 4px 10px rgba(0, 0, 0, 0.3);
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="index-header">
         <div class="logo">L♥V</div>
         <h1>LovMap</h1>
         <p>Documents légaux et conditions d'utilisation</p>
       </header>
 
       <main class="grid">
-        <a class="card" href="POLITIQUE_DE_CONFIDENTIALITE.md">
+        <a class="card" href="politique-de-confidentialite.html">
           <div class="card-header">
             <span class="card-icon">🔒</span>
             <span class="card-title">Politique de Confidentialité</span>
@@ -235,7 +32,7 @@
           <div class="card-meta">Mise à jour : 02/05/2026</div>
         </a>
 
-        <a class="card" href="CONDITIONS_GENERALES_UTILISATION.md">
+        <a class="card" href="conditions-generales-utilisation.html">
           <div class="card-header">
             <span class="card-icon">📜</span>
             <span class="card-title">Conditions Générales d'Utilisation</span>
@@ -247,7 +44,7 @@
           <div class="card-meta">En vigueur au : 02/05/2026</div>
         </a>
 
-        <a class="card" href="POLITIQUE_COOKIES.md">
+        <a class="card" href="politique-cookies.html">
           <div class="card-header">
             <span class="card-icon">🍪</span>
             <span class="card-title">Politique des Cookies</span>
@@ -259,7 +56,7 @@
           <div class="card-meta">Mise à jour : 02/05/2026</div>
         </a>
 
-        <a class="card" href="MENTIONS_LEGALES.md">
+        <a class="card" href="mentions-legales.html">
           <div class="card-header">
             <span class="card-icon">⚖️</span>
             <span class="card-title">Mentions Légales</span>
@@ -274,10 +71,9 @@
         <a class="card" href="app-ads.txt">
           <div class="card-header">
             <span class="card-icon">📢</span>
-            <span class="card-title">
-              app-ads.txt
-              <span class="badge">Transparence pub</span>
-            </span>
+            <span class="card-title"
+              >app-ads.txt <span class="badge">Transparence pub</span></span
+            >
           </div>
           <p class="card-description">
             Fichier d'autorisation IAB pour les annonceurs (Google AdMob).
@@ -285,13 +81,13 @@
         </a>
       </main>
 
-      <footer class="footer">
-        <p>
-          <strong>LovMap</strong> — Édité par Kévin Zuniga
-        </p>
+      <footer class="doc-footer" style="text-align: center">
+        <p><strong>LovMap</strong> — Édité par Kévin Zuniga</p>
         <p>
           Contact :
-          <a href="mailto:kevinzunigamora@icloud.com">kevinzunigamora@icloud.com</a>
+          <a href="mailto:kevinzunigamora@icloud.com"
+            >kevinzunigamora@icloud.com</a
+          >
         </p>
         <p>&copy; 2026 LovMap. Tous droits réservés.</p>
       </footer>
